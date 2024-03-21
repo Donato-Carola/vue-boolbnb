@@ -1,0 +1,35 @@
+// Variables
+@use './partials/variables' as *;
+
+// TomTom map SDK
+@import "@tomtom-international/web-sdk-maps";
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    color: $text-color;
+}
+
+.active {
+    background-color: $primary-color;
+    color: white;
+}
+
+.text-color {
+    color: $text-color;
+}
+
+.text-secondary {
+    color: $secondary-color;
+}
+
+.primary-color {
+    color: $primary-color;
+}
+
+.my-bg-primary {
+    background-color: $primary-color;
+    color: white;
+}
